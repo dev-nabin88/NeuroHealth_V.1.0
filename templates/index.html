@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroHealth - Brain Tumor Awareness & Support</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Neuro<span>Health</span></h1>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#symptoms">Symptoms</a></li>
+                    <li><a href="#prevention">Prevention</a></li>
+                    <li><a href="#detection">Detection Tool</a></li>
+                    <li><a href="#consultation" class="btn-primary">Book Consultation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Understanding Brain Health Matters</h1>
+                <p>Early detection and awareness can save lives. Learn about brain tumor symptoms, prevention, and detection.</p>
+                <a href="#about" class="btn-primary">Learn More</a>
+            </div>
+            <div class="hero-image">
+                
+                 <img src="https://parspng.com/wp-content/uploads/2023/10/brainpng.parspng.com-9.png">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Brain Tumors</h2>
+                <p>Understanding the basics can help with early detection</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.vexels.com/media/users/3/245951/isolated/preview/343da0f17a97ffbfd6e3561e89e1900a-head-with-brain-color-stroke.png" alt="Brain tumor illustration">
+                </div>
+                <div class="about-text">
+                    <h3>What are Brain Tumors?</h3>
+                    <p>Brain tumors are masses or growths of abnormal cells in the brain. They can be benign (non-cancerous) or malignant (cancerous). Both types can cause similar symptoms and may require treatment depending on their size, location, and growth rate.</p>
+                    
+                    <h3>Common Types</h3>
+                    <ul>
+                        <li><strong>Gliomas:</strong> Tumors that begin in glial cells</li>
+                        <li><strong>Meningiomas:</strong> Tumors that arise from the membranes surrounding the brain</li>
+                        <li><strong>Acoustic neuromas:</strong> Tumors that develop on the nerve connecting the ear to the brain</li>
+                        <li><strong>Pituitary adenomas:</strong> Tumors that develop in the pituitary gland</li>
+                    </ul>
+                    
+                    <p>Early detection significantly improves treatment outcomes and quality of life for patients.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="symptoms" class="symptoms">
+        <div class="container">
+            <div class="section-header">
+                <h2>Early Symptoms</h2>
+                <p>Recognizing these signs could lead to early diagnosis</p>
+            </div>
+            <div class="symptoms-grid">
+                <div class="symptom-card">
+                    <div class="symptom-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5730/5730318.png" alt="Headache icon">
+                    </div>
+                    <h3>Persistent Headaches</h3>
+                    <p>Especially those that are worse in the morning or cause you to wake from sleep</p>
+                </div>
+                <div class="symptom-card">
+                    <div class="symptom-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5481/5481993.png" alt="Vision icon">
+                    </div>
+                    <h3>Vision Changes</h3>
+                    <p>Blurred vision, double vision, or loss of peripheral vision</p>
+                </div>
+                <div class="symptom-card">
+                    <div class="symptom-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/8253/8253326.png" alt="Balance icon">
+                    </div>
+                    <h3>Balance Problems</h3>
+                    <p>Difficulty with balance, coordination, or walking</p>
+                </div>
+                <div class="symptom-card">
+                    <div class="symptom-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/426/426426.png" alt="Speech icon">
+                    </div>
+                    <h3>Speech Difficulties</h3>
+                    <p>Trouble finding words or speaking in complete sentences</p>
+                </div>
+                <div class="symptom-card">
+                    <div class="symptom-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/4444/4444888.png" alt="Nausea icon">
+                    </div>
+                    <h3>Nausea and Vomiting</h3>
+                    <p>Unexplained nausea or vomiting, especially in the morning</p>
+                </div>
+                <div class="symptom-card">
+                    <div class="symptom-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/9818/9818069.png" alt="Seizure icon">
+                    </div>
+                    <h3>Seizures</h3>
+                    <p>Especially in someone with no history of seizures</p>
+                </div>
+            </div>
+            <div class="symptoms-note">
+                <p><strong>Note:</strong> These symptoms can be caused by many conditions other than brain tumors. However, if you experience persistent or worsening symptoms, consult a healthcare professional.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="prevention" class="prevention">
+        <div class="container">
+            <div class="section-header">
+                <h2>Prevention Tips</h2>
+                <p>While not all brain tumors are preventable, these steps may help reduce risk</p>
+            </div>
+            <div class="prevention-content">
+                <div class="prevention-cards">
+                    <div class="prevention-card">
+                        <h3>Maintain a Healthy Diet</h3>
+                        <p>Eat plenty of fruits, vegetables, and whole grains. Limit processed foods and red meats.</p>
+                    </div>
+                    <div class="prevention-card">
+                        <h3>Regular Exercise</h3>
+                        <p>Aim for at least 30 minutes of moderate physical activity most days of the week.</p>
+                    </div>
+                    <div class="prevention-card">
+                        <h3>Protect Against Radiation</h3>
+                        <p>Limit exposure to ionizing radiation, including unnecessary medical imaging.</p>
+                    </div>
+                    <div class="prevention-card">
+                        <h3>Avoid Environmental Toxins</h3>
+                        <p>Minimize exposure to pesticides, industrial chemicals, and air pollution when possible.</p>
+                    </div>
+                    <div class="prevention-card">
+                        <h3>Regular Check-ups</h3>
+                        <p>Schedule regular medical check-ups and discuss any unusual symptoms with your doctor.</p>
+                    </div>
+                    <div class="prevention-card">
+                        <h3>Know Your Family History</h3>
+                        <p>Be aware of any family history of brain tumors or related conditions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="detection" class="detection">
+        <div class="container">
+            <div class="section-header">
+                <h2>Try Our Detection Tool 🧪</h2>
+                <p>A preliminary screening tool for brain tumor detection</p>
+            </div>
+            <div class="detection-content">
+                <div class="detection-info">
+                    <h3>How It Works</h3>
+                    <p>Our AI-powered tool analyzes MRI scans to help detect potential brain tumors. Simply upload your MRI image, and our system will process it to provide preliminary results.</p>
+                    <p>This tool uses advanced machine learning algorithms trained on thousands of MRI scans to identify patterns associated with brain tumors.</p>
+                    <p><strong>Note:</strong> This tool is for educational purposes only and should not replace professional medical diagnosis. Always consult with a healthcare provider for proper evaluation.</p>
+                </div>
+                <div class="detection-tool">
+                    <div class="tool-container">
+                        <h2>🧠 Brain Tumor Detection System</h2>
+
+                        <!-- Upload Form -->
+                        <form action="/" method="POST" enctype="multipart/form-data">
+                            <input type="file" name="file" accept="image/*" required>
+                            <br>
+                            <button type="submit" class="btn-primary">🔎 Detect Tumor</button>
+                        </form>
+
+                        <!-- Show Results if Available -->
+                        {% if result %}
+                        <div class="result">
+                            <strong>Result:</strong> {{ result }}<br>
+                            <strong>Confidence:</strong> {{ confidence }}
+                        </div>
+
+                        <!-- Show Uploaded Image -->
+                        <div class="image-preview">
+                            <h4>📸 Uploaded Image:</h4>
+                            <img src="{{ file_path }}" alt="Uploaded Image">
+                        </div>
+                        {% endif %}
+                    </div>
+                    <div class="detection-disclaimer">
+                        <p><strong>Disclaimer:</strong> This tool is intended for educational purposes only. It should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="consultation" class="consultation">
+        <div class="container">
+            <div class="section-header">
+                <h2>Book Consultation</h2>
+                <p>Speak with a healthcare professional about your concerns</p>
+            </div>
+            <div class="consultation-content">
+                <div class="consultation-info">
+                    <h3>Why Consult a Specialist?</h3>
+                    <p>If you're experiencing concerning symptoms or have a family history of brain tumors, speaking with a neurologist or neurosurgeon can help address your concerns.</p>
+                    <p>Our network of specialists can provide:</p>
+                    <ul>
+                        <li>Professional evaluation of symptoms</li>
+                        <li>Appropriate diagnostic testing recommendations</li>
+                        <li>Treatment options if necessary</li>
+                        <li>Peace of mind and expert guidance</li>
+                    </ul>
+                </div>
+                <div class="consultation-form">
+                    <form id="booking-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Preferred Date</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Preferred Time</label>
+                            <select id="time" name="time" required>
+                                <option value="">Select a time</option>
+                                <option value="morning">Morning (9AM - 12PM)</option>
+                                <option value="afternoon">Afternoon (1PM - 5PM)</option>
+                                <option value="evening">Evening (6PM - 8PM)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="concerns">Brief Description of Concerns</label>
+                            <textarea id="concerns" name="concerns" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Request Consultation</button>
+                    </form>
+                    <div id="booking-confirmation" class="hidden">
+                        <h3>Thank You!</h3>
+                        <p>Your consultation request has been submitted. A member of our team will contact you within 24 hours to confirm your appointment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Neuro<span>Health</span></h2>
+                    <p>Raising awareness for better brain health</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About Brain Tumors</a></li>
+                        <li><a href="#symptoms">Early Symptoms</a></li>
+                        <li><a href="#prevention">Prevention Tips</a></li>
+                        <li><a href="#detection">Detection Tool</a></li>
+                        <li><a href="#consultation">Book Consultation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>Email: workwithrudradip@gmail.com</p>
+                    <p>Phone: +91 9679608907</p>
+                    <p>Address: Barasat, West Bengal, India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NeuroHealth. All rights reserved.</p>
+                <p>Disclaimer: This website is for educational purposes only and is not intended to provide medical advice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
